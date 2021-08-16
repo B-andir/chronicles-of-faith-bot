@@ -57,7 +57,7 @@ namespace Chronicles_of_Fate_CS_Bot {
         }
 
         public async Task MainAsync() {
-            await _client.LoginAsync(TokenType.Bot, "ODczOTU3MTY0NjczMjgyMDQ5.YQ_-CQ.Ujd8xOG_igUq5QdagSRptE07dxE");
+            await _client.LoginAsync(TokenType.Bot, "");  // Fill empty "" with discord bot token
             await _client.StartAsync();
 
             await Task.Delay(Timeout.Infinite);
